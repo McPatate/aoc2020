@@ -17,8 +17,6 @@ for v in filtered_high:
         if not found:
             for v3 in filtered_high[2:]:
                 s = v + v2 + v3
-                if s > 2020:
-                    break
                 if s == 2020:
                     print(f"pt2's solution is : {v} * {v2} * {v3} = {v*v2*v3}")
                     found = True
