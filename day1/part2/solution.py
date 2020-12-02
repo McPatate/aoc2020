@@ -22,4 +22,4 @@ for v in filtered_high:
                 if s == 2020:
                     print(f"pt2's solution is : {v} * {v2} * {v3} = {v*v2*v3}")
                     found = True
-
+                    break
